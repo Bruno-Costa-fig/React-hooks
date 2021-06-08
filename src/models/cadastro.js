@@ -8,7 +8,7 @@ function validarCPF(cpf) {
 
 function validarSenha(senha) {
     if (senha.length < 4 || senha.length > 72) {
-        return { valido: false, texto: "A senha deve ter no mínimo 4 caracteres e no máximo 72" }
+        return { valido: false, texto: "O campo deve ter no mínimo 4 caracteres e no máximo 72" }
     } else {
         return { valido: true, texto: "" }
     }

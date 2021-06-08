@@ -13,7 +13,6 @@ function DadosEntrega({ aoEnviar }) {
         <form onSubmit={(event) => {
             event.preventDefault();
             aoEnviar({ cep, endereco, numero, estado, cidade });
-
         }
         }>
             <TextField
